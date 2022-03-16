@@ -1,0 +1,122 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+
+.mymimic {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: cener;
+  width: 100%;
+  background-color: #303841;
+  height: 100vh;
+  color: white;
+}
+.mimic {
+  font-size: 3em;
+  align-items: center;
+  justify-content: center;
+}
+.web {
+  color: red;
+}
+.projectheading {
+  font-size: 3rem;
+  color: #ffffff;
+  max-width: 710px;
+  margin: 0 auto 6rem auto;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  border-bottom: 0.2rem solid white;
+}
+/* .projectimgs {
+  padding: 0;
+} */
+.myprojects {
+  background-color: #45567d;
+  padding: 7rem 2rem;
+}
+.projectimgs3 {
+  height: 66%;
+  box-sizing: border-box;
+}
+.links {
+  background-color: #303841;
+  padding: 20px 5px;
+  margin: 0vh;
+  text-align: center;
+}
+.pagelinks {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.showbutton {
+  padding: 10px 20px;
+  font-size: 2rem;
+  background-color: #303841;
+  color: white;
+  font-weight: 200;
+  font-size: 1.4rem;
+  align-items: center;
+  text-decoration: none;
+}
+.showbutton:hover {
+  background-color: #be3144;
+  color: #ffffff;
+  transition: all 0.3s ease-out;
+}
+.showbutton:hover .btnArrow {
+  margin-left: 5px;
+}
+.hmmm {
+  background-color: #303841;
+  color: white;
+  padding: 100px 20px;
+  height: 60vh;
+}
+.hmmH2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.socialmedia {
+  font-size: 1.4rem;
+  color: white;
+  text-align: center;
+  color: white;
+}
+.mylinks {
+  color: white;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+.myfooter {
+  justify-content: center;
+  background-color: #303841;
+  color: white;
+  border-top: 5px solid red;
+  padding: 30px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem !important;
+  }
+  p {
+    font-size: 1rem !important;
+  }
+  .mimic {
+    font-size: 3rem;
+  }
+  .projectheading {
+    font-size: 1.45rem !important;
+  }
+}
